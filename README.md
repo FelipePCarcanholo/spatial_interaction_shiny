@@ -39,7 +39,7 @@ This plot its interactive, so you can select an area of interest to plot the hea
 
 2. A Spatial plot colored by the intensity of the score (one for each score you have selected in the checked boxes)
 
-3. A Heatmap of the mean score of the cells interacted (one for each score you have selected in the checked boxes)
+3. A Heatmap of the mean score of the cells interacted (one for each score you have selected in the checked boxes), written inside of the squares the pvalue of that score (based on 1k simulations of resampling randomly scores for that interaction), pvalue <0.05 is colored by green and >0.05 in black
 
 4. A Heatmap of all scores for all cells for that slice you selected (separated by cell type)
 
@@ -48,4 +48,4 @@ This will plot a filtred version of the overall Heatmap
 (usefull when you have too many scores to analyse in the overall heatmap)
 
 ### 5. You can click on "All Samples Score Interaction"
-This will plot the mean score of spatially interacted cells considering all patients, separated by the column you have put on "proximity_split", to obtain the mean score of interaction for that specific tumor you are analysing.
+This will plot the mean score of spatially interacted cells considering all patients, separated by the column you have put on "proximity_split", to obtain the mean score of interaction for that specific tumor you are analysing. Written inside of the squares the pvalue of that score (based on 1k simulations of resampling randomly scores for that interaction), pvalue <0.05 is colored by green and >0.05 in black
