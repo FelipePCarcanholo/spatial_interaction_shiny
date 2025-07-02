@@ -5,7 +5,7 @@ shiny app to visualize spatial data with scores interacted
 To use the app with the data I provided, download this 2 dataframes in this drive:
 https://drive.google.com/drive/folders/1fPeKKG-RUh3WDDyim14D83Nt7QzvQ6Na?usp=sharing
 
-Than confirm that is installed all the packages needed in the begining of .R file
+Confirm that is installed all the packages needed in the begining of .R file
 Finaly run all the code in .R file
 
 ## Using your own data in the app
