@@ -18,7 +18,7 @@ Make sure that the spatial location of x and y are in the metadata with the colu
 2. Put the name of the column which has the slice/patient information in the argument "patient_column", using "" in the name
 3. Put a vector of names of the columns that contain the scores that you will analyse in the argument "list_of_scores_columns"
 4. Put the name of the column with the cell type information (or cluster if you want) in the argument "cell_type_column", using "" in the name
-5. Put the colors for each cell type in object "colors" in the begining of code
+5. Put the colors for each cell type in object "color" in the begining of code
 
 #### You can:
 1. Put the name of the column that separate the type of tumor between patients (to separate the plot in the final part that uses all patients to make the median score of interaction), its in the argument "proximity_split", using "" in the name. If you leave this part with just "" it will plot for all patients in the metadata.
